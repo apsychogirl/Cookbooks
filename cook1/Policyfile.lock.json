@@ -1,0 +1,42 @@
+{
+  "revision_id": "ffb084f8a208b7604c99802407487a589f85493b5a5cd6aef2853d79374c8c09",
+  "name": "cook1",
+  "run_list": [
+    "recipe[cook1::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "cook1": {
+      "version": "0.1.0",
+      "identifier": "cba2d968aef0c3ef119c8dc9104f462d46c2bd91",
+      "dotted_decimal_identifier": "57318474920161475.67291883525181519.77160274640273",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "cook1",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "cook1 (0.1.0)": [
+
+      ]
+    }
+  }
+}
